@@ -20,8 +20,6 @@ https://stackoverflow.com/questions/48124385/capistrano-deploy-failing-on-gitche
 
 
 ### Composer Auth File
-THE BRUTE-FORCE FIX
-
 
 Edit the composer authentication configuration file `~/.composer/auth.json.`
 Alternatively, this file might be in `~/.config.composer/`
