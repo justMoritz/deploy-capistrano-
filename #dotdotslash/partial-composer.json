@@ -1,0 +1,132 @@
+
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "advanced-custom-fields/advanced-custom-fields-pro",
+        "version": "5.9.6",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download"
+        },
+        "require": {
+          "philippbaschke/acf-pro-installer": "^1.0",
+          "composer/installers": "^1.0"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "hoppinger/advanced-custom-fields-wpcli",
+        "version": "3.0.0",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://github.com/hoppinger/advanced-custom-fields-wpcli/archive/master.zip"
+        },
+        "require": {
+          "philippbaschke/acf-pro-installer": "^1.0",
+          "composer/installers": "^1.0"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "justmoritz/mmc-location-map",
+        "version": "2.1.2",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://github.com/justMoritz/mmc-location-map/archive/refs/heads/master.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "justmoritz/mmc-gallery",
+        "version": "dev-master",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://github.com/justMoritz/mmc-location-map/archive/refs/heads/master.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "justmoritz/mmc-specials",
+        "version": "dev-master",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://github.com/justMoritz/mmc-location-map/archive/refs/heads/master.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "justmoritz/mmc-contact-wrapper",
+        "version": "dev-master",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://github.com/justMoritz/mmc-location-map/archive/refs/heads/master.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "justmoritz/module5",
+        "version": "dev-master",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://github.com/justMoritz/module5/archive/refs/heads/master.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "justmoritz/module4",
+        "version": "dev-master",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://github.com/justMoritz/module4/archive/refs/heads/master.zip"
+        }
+      }
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/khromov/acf-local-json-manager.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/justMoritz/halve-spacers-on-mobile.git"
+    }
+  ],
+
+
+
+
+  "require": {
+    "justmoritz/mmc-location-map": "*",
+    "justmoritz/mmc-contact-wrapper": "*",
+    "justmoritz/mmc-specials": "*",
+    "justmoritz/mmc-gallery": "*",
+    "justmoritz/module4": "*",
+    "justmoritz/module5": "*",
+    "justmoritz/halve-spacers-on-mobile": "^1"
+  },
