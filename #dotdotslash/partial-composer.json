@@ -40,7 +40,7 @@
       "type": "package",
       "package": {
         "name": "justmoritz/mmc-location-map",
-        "version": "2.1.2",
+        "version": "dev-master",
         "type": "wordpress-plugin",
         "dist": {
           "type": "zip",
